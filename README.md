@@ -2,7 +2,10 @@
 Codigo morse em verilog
 
 # Integrantes do grupo
-Yuri Dimitre
-Samuel Pedro
-William Lucas
-Marcos Tulio
+Yuri Dimitre - 3485
+
+Samuel Pedro - 3494
+
+William Lucas - 
+
+Marcos Tulio - 
