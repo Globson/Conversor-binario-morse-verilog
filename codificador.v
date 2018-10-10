@@ -1,4 +1,4 @@
-module codificador (a, b, c, d, s1, s2, s3, s4, s5, reset, ready);
+module codificador_em_morse (a, b, c, d, s1, s2, s3, s4, s5, reset, ready);
     input wire a, b, c, d, reset, ready;
     output reg s1, s2, s3, s4, s5; //Saidas codificadas em morse//
 

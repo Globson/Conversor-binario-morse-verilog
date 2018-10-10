@@ -1,0 +1,101 @@
+$date
+	Wed Oct 10 20:57:48 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 1 ! s5 $end
+$var wire 1 " s4 $end
+$var wire 1 # s3 $end
+$var wire 1 $ s2 $end
+$var wire 1 % s1 $end
+$var reg 1 & a $end
+$var reg 1 ' b $end
+$var reg 1 ( c $end
+$var reg 1 ) d $end
+$var reg 1 * ready $end
+$var reg 1 + reset $end
+$scope module codificador_aux $end
+$var wire 1 & a $end
+$var wire 1 ' b $end
+$var wire 1 ( c $end
+$var wire 1 ) d $end
+$var wire 1 * ready $end
+$var wire 1 + reset $end
+$var reg 1 % s1 $end
+$var reg 1 $ s2 $end
+$var reg 1 # s3 $end
+$var reg 1 " s4 $end
+$var reg 1 ! s5 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1+
+x*
+x)
+x(
+x'
+x&
+0%
+0$
+0#
+0"
+0!
+$end
+#1
+0+
+#2
+0)
+0(
+0'
+0&
+1*
+#3
+1%
+1)
+1*
+#4
+1$
+0)
+1(
+1*
+#5
+1#
+1)
+1*
+#6
+1"
+0)
+0(
+1'
+1*
+#7
+1!
+1)
+1*
+#8
+0%
+0)
+1(
+1*
+#9
+0$
+1)
+1*
+#10
+0#
+0)
+0(
+0'
+1&
+1*
+#11
+0"
+1)
+1*
