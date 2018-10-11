@@ -33,7 +33,7 @@ make gtk
 Para limpar os arquivos executaveis e o testdump.vcd
 ```
 
-make clean
+make rm
 
 ```
 ## Licença
