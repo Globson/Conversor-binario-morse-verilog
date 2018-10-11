@@ -1,8 +1,8 @@
 all:
-	iverilog testebench.v -o EXEC
+	iverilog testbench.v -o testbench_compilado
 
 run:
-	./EXEC
+	./testbench_compilado
 
 gtk:
 	gtkwave testdump.vcd

@@ -1,7 +1,0 @@
-# Arquivo .vcd
-*.vcd
-# Binarios
-EXEC
-*.out
-# Vvp
-*.vvp
