@@ -3,3 +3,5 @@
 # Binarios
 EXEC
 *.out
+# Vvp
+*.vvp
