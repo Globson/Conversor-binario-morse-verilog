@@ -8,4 +8,4 @@ gtk:
 	gtkwave testdump.vcd
 
 rm:
-	rm EXEC && rm testdump.vcd
+	rm testbench_compilado && rm testdump.vcd
