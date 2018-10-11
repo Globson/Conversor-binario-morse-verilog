@@ -1,0 +1,5 @@
+# Arquivo .vcd
+*.vcd
+# Binarios
+EXEC
+*.out
