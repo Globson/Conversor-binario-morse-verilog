@@ -1,11 +1,11 @@
 all:
-	iverilog testebench.v -o codificador
+	iverilog testebench.v -o EXEC
 
 run:
-	./codificador
+	./EXEC
 
 gtk:
 	gtkwave testdump.vcd
 
 rm:
-	rm codificador && rm testdump.vcd
+	rm EXEC && rm testdump.vcd
