@@ -10,6 +10,7 @@ Utilizando a linguagem de hardware,verilog,esse programa foi desenvolvido tanto 
 **OS & Linux**
 
 Para compilar o programa você ira precisar do [Icarus Verilog](https://github.com/steveicarus/iverilog)
+
 Clone o repositorio
 ```
 git clone https://github.com/Numb4r/codigo-morse-verilog
