@@ -1,13 +1,13 @@
 `include "codificador.v"
 module testbench();
   reg a, b, c, d, reset, ready;
-  wire s1, s2, s3, s4, s5;
-  codificador_em_morse codificador_aux(.a(a), .b(b), .c(c), .d(d), .s1(s1), .s2(s2), .s3(s3), .s4(s4), .s5(s5), .reset(reset), .ready(ready));
+  wire[4:0] s1;
+  codificador_em_morse codificador_aux(.a(a), .b(b), .c(c), .d(d), .s1(s1), .reset(reset), .ready(ready));
   initial begin
     $dumpfile("testdump.vcd");
     $dumpvars(0 ,testbench);
     $display("Testbech do codificador em morse iniciado!");
-    $monitor("Alteração detectada! -> %b%b%b%b = %b %b %b %b %b", a,b,c,d,s1,s2,s3,s4,s5);
+    $monitor("Alteração detectada! -> %b%b%b%b = %b %b %b %b %b", a,b,c,d,s1[4],s1[3],s1[2],s1[1],s1[0]);
   end
 
   initial begin
