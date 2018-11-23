@@ -39,7 +39,7 @@ make rm
 ## Licença
 
 O Projeto é distribuido sob a GPL-3.0.
-Veja [LICENSE](https://github.com/Globson/TP-Aeroporto-AEDS/blob/master/LICENSE) para mais informações.
+Veja [LICENSE](https://github.com/Globson/Conversor-binario-morse-verilog/blob/master/LICENSE) para mais informações.
 ## Autores
 * **Yuri Dimitre - 3485** - [Numb4r](https://github.com/Numb4r)
 
