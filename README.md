@@ -1,4 +1,4 @@
-# Codigo Morse em Verilog
+#Conversor de binario em Morse em Verilog
 ![](https://i.imgur.com/MQaUj4a.jpg)
 >Um codificador morse capaz de converter numeros de 0 a 9
 
